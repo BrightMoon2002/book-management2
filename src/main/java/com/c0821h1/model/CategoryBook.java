@@ -31,4 +31,12 @@ public class CategoryBook {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "CategoryBook{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

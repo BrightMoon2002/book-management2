@@ -11,5 +11,6 @@ public abstract class BaseBook {
     abstract String getProducer();
     abstract void setPrice(double price);
     abstract double getPrice();
-
+    abstract CategoryBook getCategory();
+    abstract void setCategory(CategoryBook categoryBook);
 }

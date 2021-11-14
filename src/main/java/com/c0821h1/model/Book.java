@@ -74,7 +74,29 @@ public class Book extends BaseBook {
     }
 
     @Override
-    double getPrice() {
+    public double getPrice() {
         return this.price;
+    }
+
+    @Override
+    public CategoryBook getCategory() {
+        return categoryBook;
+    }
+
+    @Override
+    public void setCategory(CategoryBook categoryBook) {
+        this.categoryBook = categoryBook;
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", producer='" + producer + '\'' +
+                ", price=" + price +
+                ", categoryBook=" + categoryBook +
+                "} " + super.toString();
     }
 }
