@@ -50,7 +50,7 @@
         <div class="warap-navbar2" style="background-color: orange">
             <nav class="navbar2">
                 <a class="nav-link" href="https://kenh14.vn">
-                    HD Mobile
+                    HD Books
                 </a>
                 <a class="nav-link" href="/books?action=create">
                     #Create new Book
