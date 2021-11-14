@@ -41,7 +41,7 @@
     <div class="warap-navbar2" style="background-color: RED;">
         <nav class="navbar2">
             <a style="font-size: larger; border: none" class="nav-link" href="/books?">
-                HOÀNG DUY MOBILE
+                HOÀNG DUY BOOKS
             </a>
 
         </nav>

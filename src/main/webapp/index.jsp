@@ -31,7 +31,7 @@
   <div class="warap-navbar2" style="background-color: RED">
     <nav class="navbar2">
       <a style="font-size: larger; border: none" class="nav-link" href="/books">
-        HOÀNG DUY MOBILE
+        HOÀNG DUY BOOKS
       </a>
       <form action="/books" method="get">
         <input style="background-color: white; color: black" type="text" name="search" placeholder="Producer">
@@ -45,7 +45,7 @@
     <div class="warap-navbar2" style="background-color: orange">
       <nav class="navbar2">
         <a class="nav-link" href="books">
-          HD Mobile
+          HD BOOKS
         </a>
         <a class="nav-link" href="books">
           #Tin tức
