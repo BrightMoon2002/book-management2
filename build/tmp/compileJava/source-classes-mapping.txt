@@ -1,7 +1,7 @@
 com/c0821h1/config/SingletonConnection.java
  com.c0821h1.config.SingletonConnection
-com/c0821h1/model/Book.java
- com.c0821h1.model.Book
+com/c0821h1/controller/BookServlet.java
+ com.c0821h1.controller.BookServlet
 com/c0821h1/model/BaseBook.java
  com.c0821h1.model.BaseBook
 com/c0821h1/service/categoryBook/ICategoryBook.java
@@ -16,5 +16,5 @@ com/c0821h1/service/book/BookService.java
  com.c0821h1.service.book.BookService
 com/c0821h1/service/IService.java
  com.c0821h1.service.IService
-com/c0821h1/controller/BookServlet.java
- com.c0821h1.controller.BookServlet
+com/c0821h1/model/Book.java
+ com.c0821h1.model.Book

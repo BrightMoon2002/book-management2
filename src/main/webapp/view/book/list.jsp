@@ -40,7 +40,7 @@
     <a style="float: right" href="">Register</a>
     <div class="warap-navbar2" style="background-color: RED;">
         <nav class="navbar2">
-            <a style="font-size: larger; border: none" class="nav-link" href="/books?action=view">
+            <a style="font-size: larger; border: none" class="nav-link" href="/books?">
                 HOÀNG DUY MOBILE
             </a>
 
@@ -59,7 +59,7 @@
                     #Sửa chữa - bảo hành
                 </a>
                 <form action="/books" method="get">
-                    <input style="background-color: white; color: black" type="text" name="search" placeholder="Producer">
+                    <input style="background-color: white; color: black" type="text" name="searchP" placeholder="Producer">
                     <button type="submit">Search</button>
                 </form>
             </nav>
@@ -70,19 +70,19 @@
                     <i class="fas fa-home"></i>
                 </a>
                 <a href="" class="nav-link"><i class="fas fa-star"></i> Flash Sale</a>
-                <a href="" class="nav-link">Apple</a>
-                <a href="" class="nav-link">Samsung</a>
-                <a href="" class="nav-link">Oppo</a>
-                <a href="" class="nav-link">Huawei</a>
-                <a href="" class="nav-link">Xiaomi</a>
-                <a href="" class="nav-link">Vsmart</a>
-                <a href="" class="nav-link">Vivo</a>
-                <a href="" class="nav-link">Nokia</a>
-                <a href="" class="nav-link">Black Berry</a>
-                <a href="" class="nav-link">Phillips</a>
-                <a href="" class="nav-link">Itel</a>
-                <a href="" class="nav-link">Vertu</a>
-                <a href="" class="nav-link">CT khuyến mại</a>
+                <a href="/books?action=search&searchC=Novel" class="nav-link">Novel</a>
+                <a href="/books?action=search&searchC=Short Novel" class="nav-link">Short Novel</a>
+                <a href="/books?action=search&searchC=Comic" class="nav-link">Comic</a>
+                <a href="/books?action=search&searchC=Romantic" class="nav-link">Romantic</a>
+                <a href="/books?action=search&searchC=IT Program" class="nav-link">IT Program</a>
+                <a href="/books?action=search&searchC=Children" class="nav-link">Children</a>
+                <a href="/books?action=search&searchC=Law" class="nav-link">Law</a>
+                <a href="/books?action=search&searchC=Economic" class="nav-link">Economic</a>
+                <a href="/books?action=search&searchC=History" class="nav-link">History</a>
+                <a href="/books?action=search&searchC=Science" class="nav-link">Science</a>
+                <a href="/books?action=search&searchC=Politics" class="nav-link">Politics</a>
+                <a href="/books?action=search&searchC=Art" class="nav-link">Art</a>
+                <a href="https://shopee.vn/" class="nav-link">CT khuyến mại</a>
             </nav>
         </div>
     </div>

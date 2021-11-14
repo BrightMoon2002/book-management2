@@ -140,8 +140,8 @@ public class BookService implements IBookService {
         CategoryBook categoryBook = new CategoryBook();
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(query);
-            inputSearch = "%" + inputSearch + "%";
-            preparedStatement.setString(1, inputSearch);
+            String inputSearch1 = "%" + inputSearch + "%";
+            preparedStatement.setString(1, inputSearch1);
             ResultSet resultSet = preparedStatement.executeQuery();
             while (resultSet.next()) {
                 int idBook = resultSet.getInt("idBook");
@@ -151,8 +151,7 @@ public class BookService implements IBookService {
                 double price = resultSet.getDouble("price");
                 int Id_category = resultSet.getInt("Id_category");
                 String nameCategory = resultSet.getString("nameCategory");
-                categoryBook.setId(Id_category);
-                categoryBook.setName(nameCategory);
+                categoryBook = new CategoryBook(Id_category, nameCategory);
                 bookList.add(new Book(idBook, nameBook, description, producer, price, categoryBook));
             }
         } catch (SQLException throwables) {
