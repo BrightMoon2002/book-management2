@@ -12,9 +12,6 @@ div#header {
     width: 100%;
 }
 
-div#header2 {
-    position: fixed !important;
-}
 
 nav.navbar {
     max-width: 1400px;
